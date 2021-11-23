@@ -4,8 +4,8 @@
 # Instead use the latest tagged version as the next row
 # DOCKER_CONTAINER=sitespeedio/sitespeed.io:16.2.0
 
-DOCKER_CONTAINER=sitespeedio/sitespeed.io-autobuild:main
-DOCKER_SETUP="--cap-add=NET_ADMIN  --shm-size=2g --rm -v /config:/config -v "$(pwd)":/sitespeed.io -v /etc/localtime:/etc/localtime:ro -e MAX_OLD_SPACE_SIZE=3072 "
+DOCKER_CONTAINER=sitespeedio/sitespeed.io:20.6.2
+DOCKER_SETUP="--cap-add=NET_ADMIN  --shm-size=4g --rm -v /Users/reddingd/NewsCorp/sitespeed/dashboard.sitespeed.io/config:/config -v "$(pwd)":/sitespeed.io -v /etc/localtime:/etc/localtime:ro -e MAX_OLD_SPACE_SIZE=3072 "
 DESKTOP_BROWSERS=(chrome firefox)
 EMULATED_MOBILE_BROWSERS=(chrome)
 
@@ -17,7 +17,7 @@ for file in tests/desktop/*.{txt,js} ; do
         FILENAME_WITHOUT_EXTENSION="${FILENAME%.*}"
         CONFIG_FILE="config/$FILENAME_WITHOUT_EXTENSION.json"
         [[ -f "$CONFIG_FILE" ]] && echo "Using config file $CONFIG_FILE" || echo "Missing config file $CONFIG_FILE"
-        docker run $DOCKER_SETUP $DOCKER_CONTAINER --config $CONFIG_FILE -b $browser $file
+        echo docker run $DOCKER_SETUP $DOCKER_CONTAINER --config $CONFIG_FILE -b $browser $file
         control
     done
 done

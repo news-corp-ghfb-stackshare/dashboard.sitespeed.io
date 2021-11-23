@@ -4,7 +4,7 @@
     "enable": true
   },
   "browsertime": {
-    "iterations": 3
+    "iterations": 1
   },
   "sustainable": {
     "enable": true
@@ -13,7 +13,7 @@
   "copyLatestFilesToBase": true,
   "graphite": {
     "annotationRetentionMinutes": 10,
-    "namespace": "sitespeed_io.desktopFirstView",
+    "namespace": "sitespeed_io.desktopLeaderboard",
     "skipSummary": true,
     "addSlugToKey": true
   },
