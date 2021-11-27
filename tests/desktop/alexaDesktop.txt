@@ -1,10 +1,16 @@
-https://www.thesun.co.uk
-https://nypost.com
-https://www.marketwatch.com/
-https://www.news.com.au
-https://pagesix.com
-https://www.collinsdictionary.com
-https://www.biblegateway.com
-https://decider.com
-https://www.foxsports.com.au/
-https://www.harpercollins.com
+https://www.thesun.co.uk TheSun
+https://www.nypost.com NYPost
+https://www.marketwatch.com/ MarketWatch
+https://www.news.com.au NewsComAU
+https://www.pagesix.com PageSix
+https://www.decider.com Decider
+https://www.wsj.com WSJ
+https://www.heraldsun.com.au/ Herald_Sun
+https://www.barrons.com Barrons
+https://www.foxsports.com.au/ Fox_Sports
+https://www.nytimes.com/ NYTimes
+https://www.cnn.com/ CNN
+https://www.forbes.com/ Forbes
+https://www.thetimes.co.uk/ TheTimes
+https://www.netflix.com/ Netflix
+https://www.google.com/ Google
