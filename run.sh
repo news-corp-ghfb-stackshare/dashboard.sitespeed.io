@@ -4,7 +4,7 @@
 # Instead use the latest tagged version as the next row
 # DOCKER_CONTAINER=sitespeedio/sitespeed.io:16.2.0
 
-DOCKER_CONTAINER=sitespeedio/sitespeed.io:20.6.2
+DOCKER_CONTAINER=sitespeedio/sitespeed.io:20.6.2-plus1
 DOCKER_SETUP="--cap-add=NET_ADMIN  --shm-size=4g --rm -v /Users/reddingd/NewsCorp/sitespeed/dashboard.sitespeed.io/config:/config -v "$(pwd)":/sitespeed.io -v /etc/localtime:/etc/localtime:ro -e MAX_OLD_SPACE_SIZE=3072 "
 DESKTOP_BROWSERS=(chrome firefox)
 EMULATED_MOBILE_BROWSERS=(chrome)
