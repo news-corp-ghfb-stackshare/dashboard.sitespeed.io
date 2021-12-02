@@ -13,7 +13,7 @@
   "copyLatestFilesToBase": true,
   "graphite": {
     "annotationRetentionMinutes": 10,
-    "namespace": "sitespeed_io.desktopLeaderboard",
+    "namespace": "sitespeed_io.desktopLeaderboardComps",
     "skipSummary": true,
     "addSlugToKey": true
   },

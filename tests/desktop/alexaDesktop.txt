@@ -1,6 +1,5 @@
 https://www.thesun.co.uk TheSun
 https://www.nypost.com NYPost
-https://www.marketwatch.com/ MarketWatch
 https://www.news.com.au NewsComAU
 https://www.pagesix.com PageSix
 https://www.decider.com Decider
@@ -14,3 +13,9 @@ https://www.forbes.com/ Forbes
 https://www.thetimes.co.uk/ TheTimes
 https://www.netflix.com/ Netflix
 https://www.google.com/ Google
+https://www.washingtonpost.com/ WashingtonPost
+https://www.theguardian.com/us TheGuardianUS
+https://www.tiktok.com/ TikTok
+https://www.amazon.com/ Amazon
+https://www.facebook.com/ Facebook
+https://www.YouTube.com/ YouTube
