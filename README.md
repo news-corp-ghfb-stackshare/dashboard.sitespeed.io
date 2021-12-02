@@ -150,3 +150,8 @@ Sometimes your cloud server reboots. To make sure it auto start your tests, you 
 
 [travis-image]: https://img.shields.io/travis/sitespeedio/dashboard.sitespeed.io.svg?style=flat-square
 [travis-url]: https://travis-ci.org/sitespeedio/dashboard.sitespeed.io
+
+
+## Troubleshooting
+
+When you run ./run.sh or ./loop.sh and you get an error on the keyword `control`, please update your version of Bash in your terminal.
